@@ -1,0 +1,15 @@
+# split string
+    splits = string.split()[::-1]
+
+    print(splits)
+    # join splits to for sentence
+    new_string = " ".join(splits)
+    print(new_string)
+    A = []
+    for character in new_string:
+        A.append(character)
+
+    return A
+
+
+print(reverse(A))
